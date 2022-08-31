@@ -1,0 +1,32 @@
+body {
+	background-color: rgba(197, 79, 32, 0.774);
+}
+
+h1 {
+	color: black;
+	text-align: left;
+	font-family: Times New Roman;
+	background-color:white;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: Old English Text MT;
+	text-align: left;
+	color: black;
+	background-color:white;
+}
+
+p {
+	font-family: verdana;
+	font-size: 20px;
+	background-image: url(images/whiteblock.png);
+}
+
+.myimg { 
+	width:530px; 
+	height: 530px;
+	border-radius:50%;
+
+}
+
