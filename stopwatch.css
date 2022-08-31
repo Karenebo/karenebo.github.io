@@ -42,10 +42,12 @@ padding: 5px;}
     display: inline-block;
     box-shadow: 20px -2px 35px rgba(0, 0, 0, 0.541);
     border-radius: 10px;
+    color: black;
 }
 
 #stopwatch button:nth-child(even) {
     background-color: rgb(224, 8, 8);
+    color: black;
 }
 
 #stopwatch button:last-child {
