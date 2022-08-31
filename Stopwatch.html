@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Timer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- I need to figure out what these metas stand for and the roles they play on the page-->
+        <link rel="stylesheet" href="stopwatch.css">
+        <link rel="icon" href="images/timer.png">
+        <!-- we'll figure out why the timer icon is not showing on the browser later.-->
+    </head>
+    <body>
+        <h1 style="text-align: center"> STOP WATCH</h1>
+        <h2 style="text-align: center"> Hit <span class="start-text">START</span> to begin timer!</h1>
+
+        <center>
+            <br>
+            <br>
+            <br> 
+                <div id="stopwatch">
+                <div class="time">
+                <span id="minute">00</span> : 
+                <span id="second">00</span> :
+                <span id="milliseconds">00</span>
+                </div>
+
+                <br>
+                <br>
+                <br>
+                <button id="Start" on click="start();"> Start</button>
+                <button id="Stop" on click="stop();"> Stop</button>
+                <button id="Reset" on click="reset();"> reset</button>
+        </center>
+
+        <script src="Stopwatch.js"></script>
+    </body>
+    
+</html>

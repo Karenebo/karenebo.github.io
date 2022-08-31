@@ -1,0 +1,63 @@
+body {
+    background-color:rgba(197, 79, 32, 0.774)
+}
+
+
+
+h1 { 
+    color:black;
+    background-color: rgba(235, 250, 237, 0.664);
+    padding: 10px;
+}
+
+h2 { 
+    color: rgba(235, 250, 237);
+}
+
+#stopwatch span{
+    background:rgb(254, 255, 254);
+    margin:10;
+    padding: 2px;
+    font-size: 30px;
+    display: inline-block;  
+}
+
+.time{ background:rgb(254, 255, 254);
+    border: 5px solid black;
+    margin:10;
+    padding: 20px;
+    font-size: 30px;
+    display: inline-block;
+    box-shadow: 20px -2px 35px rgba(0, 0, 0, 0.541);
+    border-radius: 60px;}
+
+.start-text {color: green;
+background-color: white;
+padding: 5px;}
+
+#stopwatch button{
+    background:rgb(51, 206, 51);
+    font-size: 20px;
+    padding: 8px;
+    display: inline-block;
+    box-shadow: 20px -2px 35px rgba(0, 0, 0, 0.541);
+    border-radius: 10px;
+}
+
+#stopwatch button:nth-child(even) {
+    background-color: rgb(224, 8, 8);
+}
+
+#stopwatch button:last-child {
+    background-color: rgb(227, 243, 6);
+    font-style:oblique;
+    color: white;
+}
+
+#stopwatch button:hover {
+    background-color: rgba(227, 245, 205, 0.904);
+    color: rgb(2, 8, 3);
+    border-radius: 40px;
+    box-shadow: 10px -1px 50px rgb(253, 253, 253);
+    transition: 0.2s;
+}
