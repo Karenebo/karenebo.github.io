@@ -111,7 +111,7 @@ h2 {
     z-index: 99; 
     border: none;
     outline: none; 
-    background-color: rgba(95, 20, 58, 0.945); 
+    background-color: rgba(95, 20, 58, 0.329); 
     color:  white;
     cursor: pointer; 
     padding: 15px; 
@@ -121,5 +121,5 @@ h2 {
   }
   
   #myBtn:hover {
-    background-color: rgba(85, 85, 85, 0.473); /* Add a dark-grey background on hover */
+    background-color: rgba(85, 85, 85, 0.473); 
   }
