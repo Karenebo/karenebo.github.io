@@ -80,6 +80,12 @@ h2 {
     display: inline-block;
 }
 
+.lists1 {
+    color: rgba(8, 0, 8, 0.733);
+    font-size: 18px;
+
+}
+
 .freelink {
     color: rgba(95, 20, 58, 0.959);
     font-size: 20px;
