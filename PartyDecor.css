@@ -58,7 +58,14 @@ h2 {
     background-image: url(images/GoldCakeStand\ landscape.jpg);
     background-repeat: no-repeat;
     box-shadow: 10px -1px 10px rgba(7, 0, 3, 0.541);
-    
+}
+
+#intro {
+    width: 454px;
+    position: relative;
+    top: 19px;
+    left: 474px;
+
 }
 
 #myBtn {
