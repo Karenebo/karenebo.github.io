@@ -130,3 +130,63 @@ h2 {
   #myBtn:hover {
     background-color: rgba(85, 85, 85, 0.473); 
   }
+
+  /* for the Rentals Page*/
+  
+  h3 { 
+    color: rgba(31, 1, 19, 0.884);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  .column {
+    float: center;
+    width: 55%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  /* For Background and Decor page */
+
+
+
+  /* For CakeStands and Setup page */
