@@ -137,6 +137,7 @@ h2 {
     color: rgba(31, 1, 19, 0.884);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 28px;
+    display: inline-block;
   }
 
 * {
@@ -171,6 +172,7 @@ h2 {
   .content {
     background-color: white;
     padding: 10px;
+    box-shadow: 10px -1px 10px rgba(7, 0, 3, 0.541);
   }
 
   @media screen and (max-width: 900px) {
