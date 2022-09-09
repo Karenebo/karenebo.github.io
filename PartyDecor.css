@@ -48,8 +48,13 @@ article {
  }
 
 h2 { 
-    color: rgba(10, 0, 6, 0.822);
-    background-color: rgba(235, 250, 237, 0.664);
+    color: rgba(56, 7, 36, 0.637);
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    
 }
 
 #paragraph1 {
@@ -188,10 +193,102 @@ h2 {
     }
   }
 
-  /* For Background and Decor page */
+  /* the slideshows */
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+ 
+  .container {
+    position: relative;
+  }
 
+ 
+  .mySlides {
+    display: none;
+    box-shadow: 10px -1px 10px rgba(7, 0, 3, 0.541);
+  }
+  
+ 
+  .cursor {
+    cursor: pointer;
+  }
+  
+ 
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: rgb(3, 0, 0);
+    font-weight: bold;
+    font-size: 70px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+ 
+  .next {
+    right: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  
+ 
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+ 
+  .numbertext {
+    color: #030000;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
 
+  .caption-container {
+    text-align: center;
+    background-color: rgba(27, 3, 15, 0.856);
+    padding: 2px 16px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    box-shadow: 10px -1px 10px rgba(7, 0, 3, 0.541);
+  }
+  
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
 
-  /* For CakeStands and Setup page */
+  .column2 {
+    float:left;
+    width: 16.66%;
+  }
+  
+ 
+  .demo {
+    opacity: 0.6;
+    float: left;
+    width:  100px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 10px -1px 10px rgba(7, 0, 3, 0.541);
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 2;
+  }
 
   /* For Contact pagge */
