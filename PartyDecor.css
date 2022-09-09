@@ -293,11 +293,10 @@ h2 {
 
   /* For Contact pagge */
 
-  #bookingpolicy{
+  .bookingpolicy{
     border-radius: 10px;
-    width: 1200px;
-    height: 1200px;
-    background-image: url(images/bookingpolicy.jpg);
-    background-repeat: none;
+    width: 800px;
+    height: 800px;
+    object-fit: contain;
     box-shadow: 10px -1px 10px rgba(7, 0, 3, 0.541);
   }
