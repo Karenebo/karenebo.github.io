@@ -295,5 +295,8 @@ h2 {
 
   .bookingpolicy{
     border-radius: 10px;
+    width:  800px;
+    height: 800px;
+    object-fit: cover;
     box-shadow: 10px -1px 10px rgba(7, 0, 3, 0.541);
   }
