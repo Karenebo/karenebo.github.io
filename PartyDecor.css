@@ -292,3 +292,8 @@ h2 {
   }
 
   /* For Contact pagge */
+
+  .bookingpolicy{
+    border-radius: 10px;
+    box-shadow: 10px -1px 10px rgba(7, 0, 3, 0.541);
+  }
