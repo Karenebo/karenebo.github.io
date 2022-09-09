@@ -173,6 +173,7 @@ h2 {
     background-color: white;
     padding: 10px;
     box-shadow: 10px -1px 10px rgba(7, 0, 3, 0.541);
+    border-radius: 10px;
   }
 
   @media screen and (max-width: 900px) {
@@ -192,3 +193,5 @@ h2 {
 
 
   /* For CakeStands and Setup page */
+
+  /* For Contact pagge */
