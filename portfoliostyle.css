@@ -24,6 +24,7 @@ p {
 }
 
 .myimg { 
+	margin:auto;
 	width: 450px; 
 	height: 450px;
 	border-radius:50%;
