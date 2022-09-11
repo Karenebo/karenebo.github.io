@@ -24,10 +24,9 @@ p {
 }
 
 .myimg { 
-	width:530px; 
-	height: 530px;
+	width: 450px; 
+	height: 450px;
 	border-radius:50%;
-
 }
 
 /* Projects */
