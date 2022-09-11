@@ -32,9 +32,6 @@ p {
 
 /* Projects */
 
-.projectsbody {
-	
-}
 
 h3 { 
     color: white;
@@ -54,7 +51,7 @@ h3 {
   
   .row {
     margin: 8px -16px;
-	margin-left: auto;
+	margin-left: 15%;
 	margin-right: auto;
   }
   
