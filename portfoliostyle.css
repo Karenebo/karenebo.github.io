@@ -31,7 +31,9 @@ p {
 }
 
 .icon {
+	background-color: rgb(253, 253, 253);
     padding: 10px;
+	border-radius:80px;
   }
 
 /* Projects */
