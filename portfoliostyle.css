@@ -12,23 +12,27 @@ h1 {
 
 h2 {
 	font-family: Old English Text MT;
-	text-align: left;
-	color: black;
-	background-color:white;
+	color: rgba(255, 254, 254, 0.966);
+	padding: 9px;
 }
 
 p {
 	font-family: verdana;
 	font-size: 20px;
 	background-image: url(images/whiteblock.png);
+	padding: 25px;
 }
 
 .myimg { 
-	margin:auto;
+	margin: auto;
 	width: 450px; 
 	height: 450px;
 	border-radius:50%;
 }
+
+.icon {
+    padding: 10px;
+  }
 
 /* Projects */
 
