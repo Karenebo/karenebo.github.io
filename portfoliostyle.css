@@ -187,4 +187,16 @@ h3 {
 	color:yellow;
   }
 
+  /*HomePage*/
+
+  @media screen and (max-width: 900px) {
+	.texts {
+	  font-size: 30px;
+	}
+  }
   
+  @media screen and (max-width: 600px) {
+	.texts {
+	  font-size: 15px;
+	}
+  }
