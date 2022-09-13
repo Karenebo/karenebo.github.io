@@ -208,6 +208,24 @@ h3 {
   
   @media screen and (max-width: 600px) {
 	.texts {
-	  font-size: 15px;
+	  font-size: 30px;
 	}
   }
+
+  .glow {
+	font-size: 80px;
+	color: rgba(255, 255, 255, 0.527);
+	text-align: center;
+	animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+	from {
+	  text-shadow: 0 0 10px rgba(255, 255, 255, 0.527), 0 0 20px rgba(255, 255, 255, 0.452), 0 0 30px rgba(150, 85, 85, 0.788);
+	}
+	
+	to {
+	  text-shadow: 0 0 20px rgba(255, 255, 255, 0.685), 0 0 30px rgba(0, 0, 0, 0.788), 0 0 20px rgba(255, 255, 255, 0.925);
+	}
+  }
+
