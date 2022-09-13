@@ -1,7 +1,5 @@
 
 
-/* come back to this: document.getElementsByTagName("Butterfly icon")[0].style.fontSize = "6vw"; */
-
 let mybutton = document.getElementById("Btn");
 
 window.onscroll = function() {scrollFunction()};
@@ -18,3 +16,14 @@ function topFunction() {
   document.body.scrollTop = 0; 
   document.documentElement.scrollTop = 0; 
 }
+
+// for top nav//
+
+function myFunction() {
+    var x = document.getElementById("mytopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
