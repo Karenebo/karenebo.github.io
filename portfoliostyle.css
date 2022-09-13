@@ -29,11 +29,12 @@ p {
 	background-image: url(images/whiteblock.png);
 }
 
+/* not active: 
 .active {
 	color: rgb(250, 248, 248);
 	text-decoration: none;
   }
-
+*/
 .icon {
 	display: none;
   }
