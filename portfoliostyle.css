@@ -38,28 +38,11 @@ p {
 	display: none;
   }
 
- @media screen and (max-width: 600px) {
-	.topnav a:not(:first-child) {display: none;}
-	.topnav a.icon {
-	  float: right;
-	  display: block;
-	}
+  .topnav {
+	overflow: hidden;
   }
- 
-  @media screen and (max-width: 600px) {
-	.topnav.responsive {position: relative;}
-	.topnav.responsive a.icon {
-	  position: absolute;
-	  right: 0;
-	  top: 0;
-	}
-	.topnav.responsive a {
-	  float: none;
-	  display: block;
-	  text-align: left;
-	}
-  }
-  
+
+
 .nav {
 	
 	color: rgba(10, 10, 10, 0.459);
