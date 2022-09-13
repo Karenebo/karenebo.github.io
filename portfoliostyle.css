@@ -102,7 +102,9 @@ h3 {
   }
   
   .project {
-	background-color:  rgba(150, 20, 20, 0.788);
+	background-color:  rgba(248, 248, 248, 0.788);
+	color: black;
+	box-shadow: 3px 1px 3px rgb(14, 0, 0);
 	
 } 
   .project:hover {
@@ -114,9 +116,82 @@ h3 {
 
 .about {
 	background-color:  rgba(150, 20, 20, 0.788);
+	box-shadow:  3px 1px 3px rgb(14, 0, 0);
 	
 } 
   .about:hover {
 	background-color:  rgba(138, 59, 59, 0.541);
 	box-shadow: 3px 1px 3px rgb(163, 117, 117);
 }
+
+/*Home page button*/
+
+.index {
+	border-radius: 4px;
+	background-color: #faf9f9c5;
+	border: none;
+	color:rgba(71, 25, 7, 0.986);
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: auto;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	box-shadow: 3px 1px 3px rgb(14, 0, 0);
+  }
+
+  .index:hover {
+	background-color: rgba(107, 14, 14, 0.788);
+	box-shadow: 3px 1px 3px rgb(248, 248, 248);
+	color: white
+	
+}
+  
+  .index span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+  .index span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+  .index:hover span {
+	padding-right: 25px;
+  }
+  
+  .index:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+
+  /*links*/
+
+  .name {
+	text-decoration: none;
+	font-size: 35px;
+	color:#faf9f9da;
+  }
+
+  .name:hover {
+	text-decoration: none;
+	font-size: 35px;
+	color:yellow;
+  }
+
+  pre {
+	text-align:center; 
+	font-size: 30px; 
+	font-family: Arial, Helvetica, sans-serif; 
+	margin:auto; 
+	color: rgba(0, 0, 0, 0.856);
+
+  }
