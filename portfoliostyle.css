@@ -229,3 +229,26 @@ h3 {
 	}
   }
 
+  /* back to top button*/
+
+  #Btn {
+  
+    position: fixed;
+    bottom: 65px;
+    right: 30px;
+    display: none;
+    z-index: 99; 
+    border: none;
+    outline: none; 
+    background-color: rgba(107, 14, 14, 0.534); 
+    color:  white;
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  
+  #Btn:hover {
+    background-color: rgba(148, 78, 78, 0.459); 
+  }
