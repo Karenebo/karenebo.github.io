@@ -102,9 +102,7 @@ h3 {
   }
   
   .project {
-	background-color:  rgba(248, 248, 248, 0.788);
-	color: black;
-	box-shadow: 3px 1px 3px rgb(14, 0, 0);
+	background-color:  rgba(150, 20, 20, 0.788);
 	
 } 
   .project:hover {
@@ -116,7 +114,6 @@ h3 {
 
 .about {
 	background-color:  rgba(150, 20, 20, 0.788);
-	box-shadow:  3px 1px 3px rgb(14, 0, 0);
 	
 } 
   .about:hover {
