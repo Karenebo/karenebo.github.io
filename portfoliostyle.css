@@ -132,8 +132,8 @@ h3 {
 	border: none;
 	color:rgba(71, 25, 7, 0.986);
 	text-align: center;
-	font-size: 28px;
-	padding: 20px;
+	font-size: 3vw;
+	padding: 2vw;
 	width: auto;
 	transition: all 0.5s;
 	cursor: pointer;
@@ -177,13 +177,24 @@ h3 {
 
   .name {
 	text-decoration: none;
-	font-size: 35px;
+	font-size: 3vw;
 	color:#faf9f9da;
   }
 
   .name:hover {
 	text-decoration: none;
-	font-size: 35px;
+	font-size: 3vw;
+	color:yellow;
+  }
+
+  .links {
+	text-decoration: none;
+	color:#faf9f9da;
+  }
+
+  .links:hover {
+	text-decoration: none;
+	font-size: 20px;
 	color:yellow;
   }
 
