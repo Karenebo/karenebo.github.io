@@ -10,13 +10,18 @@
 			<link rel="icon" href="images/My project.png">
 	</head>
 	
-	<body>
-
-		<h1> Home 
-			<p style="text-align: right; background-color:white"> 
-			<a href="about.html"> About Me </a> |<a href="projects.html"> Projects </a> |
-			<a href="contact.html"> Contact me </a> </p></h1>
-
+	<div class="topnav" id="mytopnav">
+		<h1> <a href="index.html" class="active">Home</a>
+			
+			<p style="text-align: left; background-image: none", class="nav"> 
+			<a href="about.html" class="navlinks"> About Me </a> |
+			<a href="projects.html" class="navlinks"> Projects </a> |
+			<a href="contact.html" class="navlinks"> Contact me </a> 
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			  </a>
+			</p></h1> </div>
+			
 			<br>
 			<center><a href="about.html"><img src="images/My project.png" alt ="Butterfly icon"></a></center>
 			<br>
@@ -24,6 +29,7 @@
 		<br> I'm a Frontend web developer and this is my Portfolio. <br><br>
 		<a href="projects.html"><button class="index"><span> Check out my Projects </span></button></a> <br></h2>
 
+		
 		<br>
 		<br>
 	<script src="portfolio.js"></script>
