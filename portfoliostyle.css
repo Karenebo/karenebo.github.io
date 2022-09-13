@@ -252,3 +252,52 @@ h3 {
   #Btn:hover {
     background-color: rgba(148, 78, 78, 0.459); 
   }
+
+  /*Contact me*/
+
+  .connect {
+	border-radius: 5px;
+	background-color: rgba(150, 20, 20, 0.788);
+	border: none;
+	color:rgba(250, 248, 246, 0.986);
+	text-align: center;
+	font-size: 25px;
+	padding: 8px;
+	width: auto;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	box-shadow: 5px 1px 5px rgb(14, 0, 0);
+  }
+
+  .connect:hover {
+	background-color: rgba(138, 59, 59, 0.541);
+	box-shadow: 5px 1px 5px rgb(248, 248, 248);
+	color: rgb(7, 0, 0)
+	
+}
+  
+  .connect span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+  .connect span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+  .connect:hover span {
+	padding-right: 25px;
+  }
+  
+  .connect:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
