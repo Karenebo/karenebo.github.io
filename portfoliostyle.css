@@ -18,7 +18,6 @@ h1 {
 }
 
 h2 {
-	
 	color: rgba(255, 254, 254, 0.966);
 	padding: 9px;
 }
@@ -58,7 +57,7 @@ p {
 }
 .navlinks:hover {
 	color: rgba(245, 245, 243, 0.842);
-	font-size: 26px;
+	font-size: 21px;
 }
 
 #navdiv {
