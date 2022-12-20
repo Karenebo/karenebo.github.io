@@ -10,11 +10,15 @@ nav {
 	padding-left: 10%;
 	padding-right: 11%;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.479);
+	width: 100vw;
+	z-index: 1;
+	position: fixed;
+	top: 0;
 }
 
 section {
 	margin: 50px;
-	margin-top: 50px;
+	margin-top: 150px;
 	margin-bottom: 0px;
 	border:0px;
 	padding:10px;
@@ -105,7 +109,7 @@ h3 {
 .main {
     max-width: 1000px;
     margin: auto;
-	margin-top: 80px
+	margin-top: 150px
   }
   
   .row {
