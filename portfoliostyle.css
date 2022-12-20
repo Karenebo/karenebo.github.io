@@ -11,8 +11,10 @@ nav {
 	padding-right: 11%;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.479);
 	width: 100vw;
+	z-index: 9999;
 	position: fixed;
 	top: 0px;
+	box-shadow: 10px -1px 10px rgba(7, 0, 3, 0.541);
 }
 
 section {
