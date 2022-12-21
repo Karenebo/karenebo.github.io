@@ -2,7 +2,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>PartyDecor Toronto | Home</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1Z716TKSHY"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1Z716TKSHY');
+    </script>
+
+        <title>PartyDecor Toronto COPY | Home</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
@@ -16,13 +26,16 @@
                 <center>PARTY DECOR RENTALS INC.</center>
             </h1>
             <article style="text-align: center"> 
-                    <a href="PartyDecorRentals.html"> <span class="nav"> RENTALS </span></a>  
-                    <a href="PartyDecorContact.html"> <span class="nav"> CONTACT US </span></a>
+                    <a href="PartyDecorBackdrops+Decorations.html"> <span class="nav"> DECORATIONS </span></a>  
+                    <a href="PartyDecorCakeStands+SetUp.html"> <span class="nav"> CAKESTANDS </span></a>  
+                    <a href="PartyDecorContact.html"> <span class="nav" style="color: rgb(248, 250, 248); background-color: rgba(95, 20, 58, 0.993);"> CONTACT US </span></a>
                 </article> <!--navs-->
         </header>
 
        <center> <button onclick="topFunction()" id="myBtn" title="Go to top">Back to the top</button> </center>
         
+
+       <main>
        <div id="Banner"></div>
         <p>
             <div id="paragraph1">
@@ -34,18 +47,38 @@
             </div>
                 <br> <br> 
             <center>
-                    <a href="PartyDecorRentals.html"><span class="services">View our Rentals</span></a>
+                    <a href="#rentals"><span class="services">View our Rentals</span></a>
                   <br> <br>
+            <section>
+                <div class="row">
+                    <div class="column">
+                      <div class="content">
+                        <a href="PartyDecorBackdrops+Decorations.html" target="_blank"><h3>BACKDROPS & DECORATIONS</h3></a>
+                        <a href="PartyDecorBackdrops+Decorations.html" target="_blank"><img src="images/backgroundsetup1.jpg" alt="backgroundsetup" style="width:100%" , height="380px"></a>
+                      </div>
+                      
+                    </div>
+                    <a id="rentals"></a>
+                    <div class="column">
+                      <div class="content">
+                        <a href="PartyDecorCakeStands+SetUp.html" target="_blank"><h3>CAKE STANDS & SET-UPS</h3></a>
+                        <a href="PartyDecorCakeStands+SetUp.html" target="_blank"><img src="images/GoldCakeStand.jpg" alt="GoldCakeStand" style="width:100%", height="380px"></a>
+                      </div>
+                    </div>
+                  
+                </div>
+            </section>
                     <a href="PartyDecorContact.html"><span class="freelink">Need help?</span></a>
             </center>
            
         </p>
+        </main>
 
         <div class="footer">
            <span class="copyright">Developed & designed by</span> <a href="https://karenebo.github.io/", target="_blank"> <span class="copyright">Karen Ebo</span></a>
         </div>
 
-        <br>  <br>  <br>  <br>
+        <br> 
             <center><p style="color: rgba(85, 85, 85, 0.473);"> ↑</p></center>
         <script src="PartyDecor.js"></script>
     </body>
