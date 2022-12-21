@@ -14,6 +14,10 @@ article {
     padding: 15px;
 }
 
+main {
+  margin: 20px;
+}
+
 .nav {color: rgb(8, 0, 8);
     background-color: white;
     padding: 15px;
@@ -24,6 +28,10 @@ article {
     border-radius: 20px;
     margin-left: 15px;
     display: inline-block;
+}
+
+.nav:hover{
+  opacity: 0.8;
 }
 
 .footer {
@@ -85,6 +93,10 @@ h2 {
     display: inline-block;
 }
 
+.services:hover{
+  opacity: 0.8;
+}
+
 .lists1 {
     color: rgba(8, 0, 8, 0.733);
     font-size: 18px;
@@ -136,7 +148,13 @@ h2 {
     background-color: rgba(85, 85, 85, 0.473); 
   }
 
-  /* for the Rentals Page*/
+  /* for the Rentals section*/
+
+  section {
+    margin: 10%;
+    margin-left: 20%;
+    margin-top: 20px;
+  }
   
   h3 { 
     color: rgba(31, 1, 19, 0.884);
@@ -164,8 +182,8 @@ h2 {
   }
   
   .column {
-    float: center;
-    width: 55%;
+    float: left;
+    width: 40%;
   }
   
   .row:after {
@@ -179,6 +197,10 @@ h2 {
     padding: 10px;
     box-shadow: 10px -1px 10px rgba(7, 0, 3, 0.541);
     border-radius: 10px;
+  }
+
+  .content:hover{
+    opacity: 0.5;
   }
 
   @media screen and (max-width: 900px) {
@@ -199,7 +221,13 @@ h2 {
     box-sizing: border-box;
   }
   
- 
+ figure{
+  margin: 50px;
+  margin-top: 0px;
+  padding: 10px;
+  padding-top: 0px;
+ }
+
   .container {
     position: relative;
   }
@@ -288,7 +316,5 @@ h2 {
   
   .active,
   .demo:hover {
-    opacity: 2;
+    opacity: 0.9;
   }
-
-  /* For Contact pagge */
