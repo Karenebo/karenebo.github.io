@@ -91,6 +91,10 @@ p {
 	border-radius:50%;
 }
 
+.myimg:hover{
+	opacity: 0.9;
+}
+
 
 
 /* Projects */
