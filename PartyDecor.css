@@ -18,6 +18,7 @@ main {
   margin: 20px;
 }
 
+
 .nav {color: rgb(8, 0, 8);
     background-color: white;
     padding: 15px;
@@ -148,11 +149,10 @@ h2 {
     background-color: rgba(85, 85, 85, 0.473); 
   }
 
-  /* for the Rentals section*/
+  /* for the Rentals section */
 
   section {
     margin: 10%;
-    margin-left: 20%;
     margin-top: 20px;
   }
   
@@ -183,7 +183,7 @@ h2 {
   
   .column {
     float: left;
-    width: 40%;
+    width: 50%;
   }
   
   .row:after {
@@ -197,6 +197,8 @@ h2 {
     padding: 10px;
     box-shadow: 10px -1px 10px rgba(7, 0, 3, 0.541);
     border-radius: 10px;
+    height: 580px;
+    box-sizing: content-box;
   }
 
   .content:hover{
@@ -222,7 +224,7 @@ h2 {
   }
   
  figure{
-  margin: 50px;
+  margin: 10px;
   margin-top: 0px;
   padding: 10px;
   padding-top: 0px;
