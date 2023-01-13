@@ -17,14 +17,18 @@ nav {
 	box-shadow: 10px -1px 10px rgba(7, 0, 3, 0.541);
 }
 
-section {
+/* section {
 	margin: 50px;
 	margin-top: 150px;
 	margin-bottom: 0px;
 	border:0px;
 	padding:10px;
 	padding-bottom: 0px;
-}
+} 
+
+this is temporarily inactive
+
+*/
 
 h1 {
 	color: rgba(218, 62, 0, 0.603);
@@ -114,7 +118,7 @@ h3 {
 .main {
     max-width: 1000px;
     margin: auto;
-	margin-top: 150px
+	margin-top: 150px;
   }
   
   .row {
