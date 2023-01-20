@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: #cccccc;
+}
+
+table {
+    border-spacing: 0;
+}
+
+td {
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+.wrap {
+    width: 100%;
+    table-layout: fixed;
+    background-color: #cccccc;
+    padding-bottom: 50px;
+}
+
+.main {
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: rgba(22, 21, 21, 0.938);
+}
+
+.tabledataone, .tabledatatwo {
+    text-align: center;
+    font-size: 0;
+
+}
+
+.tabledataone .tdcolumn {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+
+}
+
+.tabledatatwo {
+    padding: 15px 0 25px;
+}
+
+.tabledatatwo .tdcolumn {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+
+}
+
+.tabledatatwo .padding {
+    padding: 15px;
+}
+
+.tabledatatwo .content {
+  font-size: 15px;
+  padding: 0 5px;
+}
+
+.tabledataone.dub {
+padding: 15px 0;
+}
+
+.tabledataone .padding{
+    padding: 10px 15px;
+}
+
+.tabledataone .content {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    border-style: solid;
+}
+
+.button:hover{
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
